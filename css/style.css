@@ -124,3 +124,9 @@ input[type="submit"]:hover {
     width: 100%; 
   }
 }
+@media (max-width: 600px) {
+  input[type="submit"] {
+    width: 100%; /* Expand button to full width */
+    margin-top: 10px; /* Optional: Add margin to separate from other elements */
+  }
+}
